@@ -1,4 +1,4 @@
-# script-path
+# script-path [![Build Status](https://travis-ci.org/phdesign/script-path.svg?branch=master)](https://travis-ci.com/PageUpPeopleOrg/learn)
 Retrieves the path of the specified script on the page, used to dynamically load assets relative the current script.
 
 ## Install
