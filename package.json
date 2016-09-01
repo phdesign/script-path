@@ -17,7 +17,7 @@
     "path",
     "url"
   ],
-  "author": "Paul Heasley <paul.heasley@gmail.com>",
+  "author": "Paul Heasley <paul@phdesign.com.au>",
   "license": "MIT",
   "devDependencies": {
     "jshint": "^2.9.3",
