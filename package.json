@@ -1,0 +1,26 @@
+{
+  "name": "script-path",
+  "version": "1.0.0",
+  "description": "Retrieves the path of the specified script on the page, used to dynamically load assets relative the current script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "pretest": "npm run lint",
+    "lint": "jshint ."
+  },
+  "keywords": [
+    "webpack",
+    "script",
+    "host",
+    "cdn",
+    "bundle",
+    "path",
+    "url"
+  ],
+  "author": "Paul Heasley <paul.heasley@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "tape": "^4.6.0"
+  }
+}
