@@ -1,9 +1,9 @@
 'use strict';
 
-var document = typeof document === 'undefined' ? null : document;
+var doc = typeof document === 'undefined' ? null : document;
 module.exports = function(bundleName) {
   var bundlePattern = new RegExp(bundleName + '(\.min|)\.js(\.gz|)$');
-  var scripts = document.getElementsByTagName('script');
+  var scripts = doc.getElementsByTagName('script');
   var src;
   for (var i = 0; i < scripts.length; i++) {
     src = scripts[i].src;
@@ -13,6 +13,6 @@ module.exports = function(bundleName) {
   }
 };
 // Used to mock the document object for testing
-module.exports.setDocument = function(doc) {
-  document = doc;
+module.exports.setDocument = function(document) {
+  doc = document;
 };
