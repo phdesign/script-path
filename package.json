@@ -1,6 +1,6 @@
 {
   "name": "script-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieves the path of the specified script on the page, used to dynamically load assets relative the current script.",
   "main": "index.js",
   "scripts": {
